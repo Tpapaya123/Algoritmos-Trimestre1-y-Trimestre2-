@@ -3,9 +3,9 @@ Algoritmo OrdenarNombresPorSeleccion
     Definir i, j, min_idx Como Entero;
     Definir nombres Como Cadena;
     Definir temporal Como Cadena;
-    Escribir "Ingrese el tamaño del arreglo (cantidad de nombres): ";
+    Escribir "Ingrese el tamaÃ±o del arreglo (cantidad de nombres): ";
     Leer tamano;
-    Dimension nombres[tamano];
+    Dimension nombres[1000];
     Para i <- 1 Hasta tamano Hacer
         Escribir "Ingrese el nombre ", i, ": ";
         Leer nombres[i];
@@ -23,7 +23,7 @@ Algoritmo OrdenarNombresPorSeleccion
             nombres[min_idx] <- temporal;
         Fin Si
     Fin Para
-    Escribir "Los nombres ordenados alfabéticamente son:";
+    Escribir "Los nombres ordenados alfabÃ©ticamente son:";
     Para i <- 1 Hasta tamano Hacer
         Escribir nombres[i];
     Fin Para
