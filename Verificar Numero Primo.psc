@@ -1,22 +1,20 @@
 Algoritmo VerificarNumeroPrimo
-    Definir num, i, resto Como Entero
-    Definir primo Como Logico
-    primo = Verdadero
+    Definir num, i, resto Como Entero;
+    Definir primo Como Logico;
+    primo <- Verdadero;
+    Escribir "Ingrese un nÃºmero entero positivo:";
+    Leer num;
 	
-    Escribir "Ingrese un número entero positivo:"
-    Leer num
-	
-    Para i = 2 Hasta num - 1
-        resto = num % i
+    Para i <- 2 hasta num-1 hacer;
+        resto <- num % i;
         Si resto = 0 Entonces
-            primo = Falso
-	
+            primo <- Falso;
+			
         FinSi
     FinPara
-	
     Si primo Entonces
-        Escribir "El número ", num, " es primo ."
+        Escribir "El nÃºmero ", num, " es primo .";
     Sino
-        Escribir "El número ", num, " no es primo."
+        Escribir "El nÃºmero ", num, " no es primo.";
     FinSi
 FinAlgoritmo
