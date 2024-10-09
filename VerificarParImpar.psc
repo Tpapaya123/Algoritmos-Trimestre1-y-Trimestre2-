@@ -1,9 +1,9 @@
 Algoritmo VerificarParImpar
-    Definir n Como Entero;
-    Escribir "Ingrese un número:"; leer n ;
+    Definir n Como Entero;definir num Como Logico;leer num;
+    Escribir "Ingrese un nÃºmero:"; leer n ;
     Si n % 2 = 0 Entonces
-        Escribir "El número ", n , " es par.";
+        Escribir "El nÃºmero ", n , " es par.";
     Sino
-        Escribir "El número", num, " es impar.";
+        Escribir "El nÃºmero", num, " es impar.";
     FinSi
 FinAlgoritmo   
