@@ -1,5 +1,5 @@
 Algoritmo MultiplicarMatrizVector
-    definir resultadooi Como Entero;definir resultado1 Como Caracter;definir matriz Como Entero;
+    definir resultadooi Como Entero;definir resultado1 Como Caracter;definir matriz Como Entero;Definir vectorj Como entero;
 	Dimension matriz[3,3];definir i como entero;definir resultadoi como entero;definir j Como Entero;Definir matrizij Como Caracter;definir vectori Como Entero;
     Dimension vector[3];   
     Dimension resultado[3];
@@ -16,13 +16,13 @@ Algoritmo MultiplicarMatrizVector
     Escribir "Ingrese los elementos del vector de 3 elementos:";
     Para i <- 1 Hasta 3 Con Paso 1 Hacer
         Escribir "Elemento [", i, "]:";
-        Leer vectori; 
+        Leer vectori; leer vectorj;
     FinPara
 	resultadooi<-1;
     Para i <- 1 Hasta 3 Con Paso 1 Hacer
         resultadoi <- 0;
         Para j <- 1 Hasta 3 Con Paso 1 Hacer;
-            resultadooi <- resultadooi + matriz[i,j] * vector[j];
+            resultadooi <- resultadooi  * vectorj;
         FinPara
     FinPara
     Escribir "El vector resultante es:";
